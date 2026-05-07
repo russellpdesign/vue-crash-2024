@@ -36,6 +36,8 @@ import {ref} from 'vue';
  <p v-else-if="status === 'pending'">User is pending</p>
  <p v-else>User is inactive</p>
 
+ <h1>Big Bob John Doe</h1>
+
 <form @submit.prevent="addTask">
   <label for="newTask">Add Task</label>
   <input type="text" id="newTask" name="newTask" v-model="newTask" />
