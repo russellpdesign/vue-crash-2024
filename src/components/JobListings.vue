@@ -2,8 +2,9 @@
 import { RouterLink } from 'vue-router';
 import { reactive, ref, onMounted } from 'vue';
 import JobListing from '@/components/JobListing.vue';
-import PulseLoader from 'vue-spinner'
 import axios from 'axios';
+import PulseLoader from 'vue-spinner';
+
 
 defineProps({
     limit: Number,
